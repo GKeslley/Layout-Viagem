@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 200px;
+  font-family: "Poppins";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+nav,
+ul,
+li,
+blockquote,
+span,
+button,
+a,
+label,
+input,
+form {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

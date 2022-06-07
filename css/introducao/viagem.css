@@ -1,0 +1,77 @@
+.viagem-bg {
+  background-image: url(/imagens/london.jpg);
+  height: 100vh;
+}
+
+.viagem {
+  display: inline-block;
+  margin: 0;
+  background: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+#viagem .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.viagem-conteudo {
+  display: grid;
+  padding: 30px;
+}
+
+.viagem h1 {
+  padding-bottom: 20px;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.formulario input {
+  display: block;
+  flex: 1 1 260px;
+  font-size: 1rem;
+  color: #7c7c7c;
+  padding: 10px;
+  width: 95%;
+}
+
+.formulario label {
+  display: block;
+}
+
+.viagem ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+}
+
+.viagem ul li {
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+}
+
+.viagem ul li:hover {
+  background-color: rgb(226, 36, 36);
+}
+
+.viagem li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.viagem img {
+  width: 24px;
+}
