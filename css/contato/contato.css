@@ -1,0 +1,111 @@
+.contato-email {
+  background-color: rgb(88, 88, 88);
+  padding: 50px 20px;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.contato-email h1 {
+  margin-bottom: 20px;
+}
+
+.contato-email span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.contato-email form {
+  margin-bottom: 30px;
+}
+
+.contato-email label {
+  display: block;
+}
+
+.contato-email input {
+  padding: 10px 0px;
+  padding-left: 10px;
+  font-size: 1rem;
+  width: 98%;
+}
+
+.contato-email a {
+  color: white;
+  background-color: darksalmon;
+}
+
+.contato h2 {
+  margin-bottom: 20px;
+}
+
+.contato span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contato ul {
+  margin-bottom: 20px;
+}
+
+.contato ul li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 5px;
+}
+
+.contato li a {
+  color: black;
+}
+
+.contato ul li:first-child::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/imagens/icones/localizacaoimagem-localizacao.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.contato ul li:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/imagens/icones/phone-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+.contato ul li:last-child::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/imagens/icones/email.svg);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+.contato form {
+  margin-bottom: 30px;
+}
+
+.contato form input {
+  display: grid;
+  grid-column: 1 / -1;
+  width: 100%;
+  padding: 20px 0px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.contato form textarea {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.contato > a {
+  background-color: black;
+}

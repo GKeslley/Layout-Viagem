@@ -17,9 +17,7 @@
 }
 
 .botao {
-  display: block;
   justify-self: start;
-  background-color: #666666;
   padding: 10px 16px;
   color: white;
 }

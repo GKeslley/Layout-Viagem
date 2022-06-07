@@ -8,6 +8,9 @@
 @import "./css/paises/paises.css";
 @import "./css/paises/tickets.css";
 
+/* Contato */
+@import "./css/contato/contato.css";
+
 /* Elementos */
 @import "./css/elementos/elementos.css";
 @import "./css/elementos/global.css";
