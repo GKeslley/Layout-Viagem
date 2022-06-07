@@ -82,3 +82,47 @@
 .viagem img {
   width: 24px;
 }
+
+@media (min-width: 1480px) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .viagem-bg {
+    background-image: none;
+    height: auto;
+    width: 100%;
+  }
+  .viagem {
+    display: inline-block;
+    margin: 0;
+    background: white;
+    position: relative;
+  }
+}
+
+@media (max-width: 820px) {
+  .formulario {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .viagem-bg {
+    background-image: none;
+    height: auto;
+  }
+  .viagem {
+    display: inline-block;
+    margin: 0;
+    background: white;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .viagem ul {
+    grid-template-columns: 1fr;
+  }
+}
