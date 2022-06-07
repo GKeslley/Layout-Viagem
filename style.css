@@ -6,6 +6,7 @@
 
 /* Países */
 @import "./css/paises/paises.css";
+@import "./css/paises/tickets.css";
 
 /* Elementos */
 @import "./css/elementos/elementos.css";

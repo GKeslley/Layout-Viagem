@@ -1,0 +1,46 @@
+.tickets h1 {
+  margin-bottom: 20px;
+}
+
+.tickets > p {
+  margin-bottom: 10px;
+}
+
+.tickets-conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.tickets-itens {
+  background-color: white;
+  padding: 20px;
+}
+
+.tickets-itens h2 {
+  margin-bottom: 20px;
+}
+
+.tickets-itens span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.tickets-itens p {
+  margin-bottom: 15px;
+}
+
+.tickets-itens a {
+  padding-left: 10px;
+  color: black;
+}
+
+.tickets-itens a:hover {
+  color: red;
+}
+
+@media (max-width: 800px) {
+  .tickets-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
