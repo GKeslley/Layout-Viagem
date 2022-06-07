@@ -11,6 +11,9 @@
 /* Contato */
 @import "./css/contato/contato.css";
 
+/* Footer */
+@import "./css/footer/footer.css";
+
 /* Elementos */
 @import "./css/elementos/elementos.css";
 @import "./css/elementos/global.css";

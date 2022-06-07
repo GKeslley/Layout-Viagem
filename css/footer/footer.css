@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  color: var(--cor-c1);
+  margin-bottom: 20px;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-img img {
+  width: 24px;
+}
