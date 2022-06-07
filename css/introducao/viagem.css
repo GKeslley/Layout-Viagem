@@ -1,6 +1,8 @@
 .viagem-bg {
   background-image: url(/imagens/london.jpg);
+  background-repeat: no-repeat;
   height: 100vh;
+  margin-bottom: 60px;
 }
 
 .viagem {
@@ -8,7 +10,7 @@
   margin: 0;
   background: white;
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);

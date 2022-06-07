@@ -1,0 +1,66 @@
+.paises {
+  display: grid;
+}
+
+.paises h1 {
+  margin-bottom: 20px;
+}
+
+.paises p {
+  margin-bottom: 10px;
+}
+
+.imagens-paises {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  position: relative;
+}
+
+.imagens-2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+.imagens-paises span {
+  color: white;
+  padding: 10px 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+}
+
+#cinquet,
+#ny,
+#sanf,
+#pisa,
+#paris {
+  position: relative;
+}
+
+#cinquet span,
+#ny span,
+#sanf span,
+#pisa span,
+#paris span {
+  padding: 10px 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+}
+
+@media (max-width: 800px) {
+  .imagens-paises {
+    grid-template-columns: 1fr;
+  }
+  .imagens-2 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .imagens-2 {
+    grid-template-columns: 1fr;
+  }
+}

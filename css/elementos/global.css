@@ -20,7 +20,8 @@ button,
 a,
 label,
 input,
-form {
+form,
+img {
   margin: 0px;
   padding: 0px;
 }

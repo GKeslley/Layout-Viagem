@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 
+.container-paises {
+  max-width: 1400px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
 .botao {
   display: block;
   justify-self: start;
