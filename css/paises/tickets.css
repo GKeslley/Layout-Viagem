@@ -17,7 +17,7 @@
 }
 
 .tickets-itens {
-  background-color: white;
+  background-color: var(--cor-0);
   padding: 20px;
 }
 
@@ -36,7 +36,7 @@
 
 .tickets-itens a {
   padding-left: 10px;
-  color: black;
+  color: var(--cor-12);
 }
 
 .tickets-itens a:hover {

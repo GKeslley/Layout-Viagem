@@ -19,5 +19,5 @@
 .botao {
   justify-self: start;
   padding: 10px 16px;
-  color: white;
+  color: var(--cor-0);
 }
