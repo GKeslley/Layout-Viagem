@@ -22,11 +22,6 @@
   width: 90%;
 }
 
-#viagem .container {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 .viagem-conteudo {
   display: grid;
   padding: 30px;
