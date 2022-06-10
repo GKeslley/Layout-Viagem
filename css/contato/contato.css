@@ -74,7 +74,7 @@
 .contato ul li:nth-child(2)::before {
   content: "";
   display: inline-block;
-  background-image: url(/imagens/icones/phone-svgrepo-com.svg);
+  background-image: url(/imagens/icones/telefone.svg);
   background-repeat: no-repeat;
   width: 18px;
   height: 18px;
