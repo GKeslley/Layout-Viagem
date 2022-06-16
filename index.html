@@ -7,12 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./style.css">
-  <link rel="preload" href="./style.css">
+  <link rel="preload" href="./style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
   <title>Layout</title>
+
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -30,7 +32,7 @@
           <a href="">
             <li>
               Flight
-              <img src="./imagens/icones/airplane.svg" alt="">
+              <img src=" ./imagens/icones/airplane.svg" alt="">
             </li>
           </a>
           <a href="">
@@ -73,7 +75,7 @@
       <h1 class="titulo">Good Offers Right Now</h1>
       <p>Up to <strong>50%</strong> discount.</p>
 
-      <div class="imagens-paises">
+      <div class="imagens-paises none">
 
         <picture id="cinquet">
           <span class="texto-M">Cinque Terre</span>
@@ -134,7 +136,7 @@
     </article>
 
     <article class="container">
-      <div class="contato-email">
+      <div class="contato-email ">
         <h1 class="titulo-M ">Get the best offers first!</h1>
         <span>Join our newsletter.</span>
         <form action="">
@@ -175,6 +177,8 @@
     </ul>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
